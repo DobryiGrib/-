@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+       <li class="li2">
+        <h2 class="h2"></h2>
+        <div class="question">
+            <img class="img" src="" alt="Question Image">
+        </div>
+       </li>
+       <span class="span"> <h1 class="h1">Флаг какой страны вы видите на картинке ?</h1></span>
+   
+
+       <div class="modal hidden">
+      <div class="h1-div">
+        <h1>Вы хотите ответить на последний вопрос и получить подарок от Станок ?</h1>
+      </div>
+      <img src="./img/фон.png" class="img-fon" alt="">
+      <li>
+        <button class="btn-start">
+            Начать игру занаво
+        </button>
+        
+        <button class="btn-play">
+            Играть дальше
+        </button>
+      </li>
+       </div>
+
+
+       <div class="options">
+            <div class="left-options">
+                <label class="button label" data-btn="01" for="option1">
+                    <input type="radio" id="option1" name="answer" value="option1">
+                   
+                </label>
+                <label class="button label" data-btn="02" for="option2">
+                    <input type="radio" id="option2" name="answer" value="option2">
+                    
+                </label>
+            </div>
+            <div class="right-options">
+                <label class="button label" data-btn="03" for="option3">
+                    <input  type="radio" id="option3" name="answer" value="option3">
+
+                </label>
+                <label class="button btn label" data-btn="04" for="option4">
+                    <input type="radio" id="option4" name="answer" value="option4">
+
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- <audio autoplay>
+        <source src="./песня-КИТАЙ-партия.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio> -->
+    <script src="./index.js" type="module"></script>
+    <script src="./arr.js" type="module"></script>
+</body>
+</html>
