@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="question padding">
+            <img class="img-2" src="./img/Тайвань.png" alt="Question Image">
+        </div>
+       <span class="span"> <h1 class="h1">Что за флаг вы видите на картинке ?</h1></span>
+       <div class="happyEnd a hidden">
+
+        <img src="./img/награда.png" alt="" class="img-bounty">
+
+        <button class="submit goodBtn">
+            Начать игру занаво
+        </button>
+     
+    </div>
+
+    <div class="worstEnd hidden">
+            <img class="img-punishment" src="./img/social-kredit.gif" alt="">
+
+    <div class="worst hidden">
+        <button class="submit worstBtn">
+            Начать игру занаво
+        </button>
+    </div>
+   
+</div>
+
+       <div class="options">
+            <div class="left-options">
+                <label class="button new-label" data-btn="01" for="option1">
+                    <input type="radio" id="option1" name="answer" value="option1">
+                    Тайвань - провинция Великого Китая
+                </label>
+                <label class="button btn02 btn label" data-btn="02" for="option2">
+                    <input type="radio" id="option2" name="answer" value="option2">
+                    Я не знать потому что я грязный уйгур
+                </label>
+            </div>
+            <div class="right-options">
+                <label class="button btn label" data-btn="03" for="option3">
+                    <input  type="radio" id="option3" name="answer" value="option3">
+                    Тайвань свободная страна
+                </label>
+                <label class="button btn label" data-btn="04"  for="option4">
+                    <input type="radio" id="option4" name="answer" value="option4">
+                    Настоящий Китай
+                </label>
+            </div>
+        </div>
+    </div>
+   
+    <!-- <audio autoplay>
+        <source src="./песня-КИТАЙ-партия.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio> -->
+      <script src="https://code.s3.yandex.net/web-code/smoothly.js"></script>
+      <script src="./test.js"></script>
+</body>
+</html>
